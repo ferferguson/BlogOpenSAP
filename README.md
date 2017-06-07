@@ -1,2 +1,2 @@
-# BlogOpenSAP
-Prototipo de Blog Open SAP
+# OpenSAPBlog
+Open SAP - Blog Prototype
