@@ -1,0 +1,245 @@
+body {
+	font-family: 'Lato', sans-serif; 
+	margin: 0;
+}
+
+.menu-background {
+	background-color: black;
+	background-size: cover;
+}
+
+.imagen {
+	background-image: url('../images/sap-leonardo.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.button {
+	border-radius: 8px;
+	border: none;
+	background: orange;
+	color: black;
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	text-decoration: none;
+	right: 0;
+}
+
+.button:hover {
+    background: white;
+	border: 0.2px solid orange;
+	color: orange;
+}
+
+.articulos {
+	width: 800px;
+	/*border: 1px solid orange;*/
+	margin: 10px auto 10px auto;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.author-date {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.bookmark {
+	/*border: 1px solid blue;*/
+	width: 250px;
+	height: 260px;
+	margin-bottom: 10px;
+}
+
+.contenedor{;
+	width: 800px;
+	/*border: 2px solid green;*/
+	margin: auto;
+	position: relative;
+}
+
+.contenedor-nav {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contenedor-menu {
+	width: 800px;
+	/*border: 1px solid red;*/
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+
+.cuadro {
+	width: 400px;
+	height: 120px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	/*border: 1px solid red;*/
+	background: white;
+	opacity: 0.8;
+}
+
+.foot {
+	margin-top: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header	{
+	/*position: relative;*/
+}
+
+.linea {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.8);*/
+}
+
+.logotipo {
+	/*border: 1px solid red;*/
+	/*display: inline-block;*/
+	margin-left: 0px;
+}
+
+.maintitle {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.maintitlelinea {
+	margin: 5px 8px 5px 8px;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.8);*/
+}
+
+.maintitlefoot {
+	margin-top: 2px 10px 2px 10px;
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.maintitle-author-date {
+	margin: 10px 5px 10px 5px;
+}
+
+.menu {
+	font-size: 15px;
+	display: inline-block;
+	/*position: absolute;*/
+	/*padding-top: 17px;*/
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.menu li:not(:last-child):after{
+	content: '|';
+	font-size: 15px;
+	line-height: 15px;
+	margin-left: 10px;
+	color: white; /*Si no le pusiera nada, heredaría el color del a*/
+}
+
+.menu li a:hover {
+    color: orange;
+}
+
+.picture {
+	width: 250px;
+}
+
+.portada {
+	color: white;
+	/*border: 1px solid blue;*/
+}
+
+.search-button {
+	border-radius: 6px;
+	border: none;
+	background: black;
+	color: white;
+	padding: 8px 12px;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.search-button:hover {
+    background: orange;
+}
+
+.search-contenedor {
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.search-input {
+	border: none;
+	border-radius: 4px;
+	background-color: lightgrey;
+	color: black;
+	padding: 8px 12px;
+}
+
+.titulo {
+	/*border: 1px solid yellow;*/
+	color: white;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
+	top: 320px;
+}
+
+.title {
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.paginador {
+	width: 800px;
+	margin: auto;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
